@@ -2,10 +2,11 @@ const Greenlock = require('greenlock');
 const pkg = require('../package.json');
 const acmeDnsCloudflare = require('acme-dns-01-cloudflare');
 const app = require('./app')
+const path = require('path')
 
 require("greenlock-express")
 .init({
-    packageRoot: __dirname,
+    packageRoot: path.join(__dirname,'../'),
     configDir: "./greenlock.d",
 
     maintainerEmail: "me@mustafaallam.com",

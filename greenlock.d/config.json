@@ -1,0 +1,6 @@
+{
+  "defaults": {},
+  "sites": [
+    { "subject": "test.mustafaallam.com", "altnames": ["test.mustafaallam.com"] }
+  ]
+}
