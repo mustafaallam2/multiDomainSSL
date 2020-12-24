@@ -18,9 +18,7 @@
   },
   "homepage": "https://github.com/mustafaallam2/multiDomainSSL#readme",
   "dependencies": {
-    "acme-dns-01-cloudflare": "^1.2.3",
     "express": "^4.17.1",
-    "greenlock": "^4.0.4",
     "greenlock-express": "^4.0.3"
   },
   "devDependencies": {
